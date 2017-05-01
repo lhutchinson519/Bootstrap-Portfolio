@@ -139,7 +139,27 @@ div.footer {
   border: 1px solid #ddd;
 }
 
+div.rightbar#navbar-right {
+  float: right;
+  width: 270px;
+  padding: 5px;
+  margin-top: -946px;
+  margin-right: -2px;
+  margin-left: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
 
+div.rightcontact#navbar-right {
+  float: right;
+  width: 270px;
+  padding: 5px;
+  margin-top: -592px;
+  margin-right: 10px;
+  margin-left: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
 
 h3,
 
@@ -256,6 +276,7 @@ input[type=text],
 input[type=email],
 textarea {
   height: 35px;
+  width: 158%;
   padding: 0 10px;
   font-size: 14px;
   border: 1px solid #ddd;
@@ -263,6 +284,10 @@ textarea {
 
 textarea {
   height: 200px;
+}
+
+#messagebox {
+  width: 158%;
 }
 
 input[type=submit] {
